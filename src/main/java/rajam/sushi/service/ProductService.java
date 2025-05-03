@@ -11,10 +11,12 @@ import java.util.List;
 public class ProductService {
 
 //    List<Product> products =  new List<Product>(new Product("nina",1,10));
-    List<Product> products = new ArrayList<Product>( Arrays.asList(
-            new Product("ito",2,10000),
-            new Product("nina",1,10)
-));
+    List<Product> products = new ArrayList<Product>(
+            Arrays.asList(
+                new Product("ito",2,10000),
+                new Product("nina",1,10)
+            )
+);
 
     public List<Product> getAllProducts(){
         return  products;
