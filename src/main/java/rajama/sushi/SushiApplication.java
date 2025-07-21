@@ -8,5 +8,6 @@ public class SushiApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SushiApplication.class, args);
+
     }
 }
